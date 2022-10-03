@@ -59,4 +59,15 @@ The application takes Youtube Music song links (not video links as Youtube Music
 
 ## User Interaction
 On the GUI, the user has 3 entry/text boxes that they can fill out.
-1. Song Links
+1) Song Links
+- Ensure you have the correct Youtube Music links for the track and not for the music video when adding links. For adding multiple links, you can separate each link with a comma and also make sure to **not add** any spaces between links or after commas.
+### HOW IT SHOULD LOOK
+```
+DO: link1,link2
+DO NOT: link1, link2
+```
+2) Removing Link #
+- This form/box only works to remove links you have already added. Upon adding links you will see a index number that marks what number the link is in the order it was added. If you want to remove a link you input the value that indexes that link. **NOTE** you can't remove multiple links at the same time and that every time you remove a link the the link index number updates for every link in the current list. 
+
+3) Playlist Name/Folder Name
+- This is important as the name enter will be the name of the folder that will be created on your desktop upon starting the download process for all the music you intend to download. 
